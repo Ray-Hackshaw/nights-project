@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url("fontawesome-all.min.css");
+
+/*
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+html, body, div, span, object,
+iframe, h1, h2, h3, h4, h5, h6, p, em, img, var, b,
+u, i, ol, ul, li, footer, header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    line-height: 1;
+}
+		
+/* Basic */
+
+	html {
+		box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+	body {
+		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-repeat: repeat, no-repeat;
+		background-size: auto, 100% 100%;
+		background-attachment: fixed;
+		overflow-y: scroll;
+	}
+
+	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+        -moz-animation: none !important;
+        -webkit-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+        -moz-transition: none !important;
+        -webkit-transition: none !important;
+        -ms-transition: none !important;
+        transition: none !important;
+	}
+
+	body, input, textarea, select {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		color: #777777;
+		font-size: 20pt;
+		line-height: 1.75em;
+    }
+    
+    body, p, button {
+        align-items: center;
+        text-align: center;
+    }
+
+    body, p {
+        margin-top: 10%;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+    }
+
+    a {
+        bottom: 0px;
+        position: relative;
+        padding: 0.2em 1em 0.2em 1em;
+    }
+
+    li {
+        position: relative;
+        bottom: 0px;
+        display: inline-block;
+        text-align: center;
+        list-style-type: none;
+    }
+
+    a.links {
+        text-decoration: none;
+        margin-bottom: 0px;
+        display: inline-block;
+        margin-top: 100%;
+        text-align: center;
+        background-color: #ffffff;
+		color: black;
+		cursor: pointer;
+    }
+
+	strong, b, h1, h2, h3, h4, h5, h6 {
+		font-weight: 400;
+		color: #363636;
+	}
+
+	h1 {
+		font-size: 2.4em;
+		letter-spacing: -0.015em;
+	}
+
+	h2 {
+		font-size: 1.8em;
+		letter-spacing: -0.015em;
+	}
+
+	h3, h4, h5, h6 {
+		font-size: 1.25em;
+        letter-spacing: -0.015em;
+    }
+
+/* Button */
+
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button,
+	.button {
+		transition: background-color .25s ease-in-out;
+        -webkit-appearance: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20pt;
+        display: inline-block;
+        position: relative;
+		background-color: #ffffff;
+		color: #ffffff;
+        border: 1;
+        margin-top: 0.6em;
+        border-radius: 7px;
+		cursor: pointer;
+		outline: 0;
+		padding: 0.1em 1em 0.2em 1em;
+	}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button:hover,
+		.button:hover {
+			background-color: #333333;
+		}
+
+		input[type="button"]:active,
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		button:active,
+		.button:active {
+			background-color: #444444;
+		}
+
+
+/* List */
+
+	ul {
+		list-style-type: none;
+	}
+
+		ul li {
+            list-style-type: none;
+			padding-left: 0.5em;
+		}
+
+	ol {
+		list-style: decimal;
+		padding-left: 1.25em;
+	}
+
+		ol li {
+			padding-left: 0.25em;
+		}
